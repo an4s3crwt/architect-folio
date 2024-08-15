@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --totl-primary-background:rgba(255,255,255,.8);
+  --totl-primary-font-color:#000;
+  --totl-primate-font-color:#565656;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,4 +30,55 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+
+
+
+::selection {
+  background: #000000;
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.polycarbonate>div{
+  width: 8.333333%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0,0,0,.1) 40%,
+  hsla(0,0%,100%,.1) 50%,
+  rgba(0,0,0,.15) 200%);
+  backdrop-filter: blur(4px);
+}
+
+
+.polycarbonate{
+  cursor: move;
+  width: 140px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  z-index: 99999;
+
+}
+
+div{
+  display: block;
+  unicode-bidi: isolate;
+}
+
+
+
+
+svg {
+  display: block;
+  width: 100vw;
+  height: 100vh;
 }
