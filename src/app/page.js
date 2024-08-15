@@ -97,7 +97,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-x-8 gap-y-4 leading-none
          text-sm font-bold sticky top-4 z-20">
           <div>⋢</div>
-          <a href="/" className="hover:underline" >
+          <a href="https://an4s3crwt.github.io/architect-folio/" className="hover:underline" >
             <h1>Ana´s Secret</h1>
           </a>
           <div>
