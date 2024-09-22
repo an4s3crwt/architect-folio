@@ -6,8 +6,8 @@ Ana's Secret is an image display built with Next.js, featuring a minimalist and 
 Live Demo
 https://an4s3crwt.github.io/architect-folio/
 
-![Live img1](./src/app/img/architect1.jpg);
-![Live img2](./src/app/img/architect2.jpg);
+![Live img1](./src/app/img/architect1.jpg)
+![Live img2](./src/app/img/architect2.jpg)
 
 
 
